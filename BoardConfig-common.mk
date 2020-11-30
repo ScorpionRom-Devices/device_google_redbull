@@ -264,8 +264,5 @@ TARGET_KERNEL_DIR := $(TARGET_BOARD_NAME_DIR:%/=%)-kernel
 TARGET_NEEDS_DTBOIMAGE := true
 TARGET_FS_CONFIG_GEN := $(TARGET_BOARD_NAME_DIR)/config.fs
 
-# DTB
-BOARD_PREBUILT_DTBIMAGE_DIR := $(KERNEL_MODULE_DIR)
-
 # Testing related defines
 BOARD_PERFSETUP_SCRIPT := platform_testing/scripts/perf-setup/b5r3-setup.sh
