@@ -71,7 +71,8 @@ AB_OTA_PARTITIONS += \
     dtbo \
     product \
     vbmeta_system \
-    system_ext
+    system_ext \
+    vendor
 
 # Partitions (listed in the file) to be wiped under recovery.
 TARGET_RECOVERY_WIPE := device/google/redbull/recovery.wipe
