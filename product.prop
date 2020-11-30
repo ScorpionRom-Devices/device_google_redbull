@@ -98,3 +98,5 @@ persist.bluetooth.bqr.min_interval_ms=500
 # System props to enable aac vbr feature
 persist.bluetooth.a2dp_aac.vbr_supported=true
 
+# gesture navigation as default
+ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
