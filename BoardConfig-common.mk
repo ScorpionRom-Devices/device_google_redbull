@@ -484,11 +484,7 @@ TARGET_BOARD_COMMON_PATH := $(TARGET_BOARD_NAME_DIR)/sm7250
 TARGET_KERNEL_DIR := $(TARGET_BOARD_NAME_DIR:%/=%)-kernel
 
 # DTBO partition definitions
-ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
-    BOARD_PREBUILT_DTBOIMAGE := $(TARGET_KERNEL_DIR)/dtbo.img
-else
-    BOARD_PREBUILT_DTBOIMAGE := $(TARGET_KERNEL_DIR)/vintf/dtbo.img
-endif
+TARGET_NEEDS_DTBOIMAGE := true
 TARGET_FS_CONFIG_GEN := $(TARGET_BOARD_NAME_DIR)/config.fs
 
 # Kernel modules
