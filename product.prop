@@ -103,3 +103,21 @@ ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
 
 # atrace
 ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent
+
+# drm
+drm.service.enabled=true
+media.mediadrmservice.enable=true
+
+# graphics
+ro.hardware.egl=adreno
+ro.hardware.vulkan=adreno
+ro.gfx.driver.1=com.qualcomm.qti.gpudrivers.lito.api30
+graphics.gpu.profiler.support=true
+graphics.gpu.profiler.vulkan_layer_apk=com.google.pixel.redbull.gpuprofiling.vulkanlayer
+
+# crypto
+ro.crypto.dm_default_key.options_format.version=2
+
+# sensors
+persist.vendor.sensors.odl.adsp=true
+persist.vendor.sensors.allow_non_default_discovery=true
