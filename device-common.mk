@@ -84,7 +84,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PACKAGES += \
     messaging \
-    dmabuf_dump
+    dmabuf_dump \
+    netutils-wrapper-1.0
 
 TARGET_PRODUCT_PROP := $(LOCAL_PATH)/product.prop
 
