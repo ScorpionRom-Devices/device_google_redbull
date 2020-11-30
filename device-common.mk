@@ -35,7 +35,8 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/qcom/sm7250/display \
     vendor/google/camera \
     vendor/qcom/sm7250 \
-    vendor/google/interfaces
+    vendor/google/interfaces \
+    vendor/codeaurora/telephony/ims
 
 # Include GPS soong namespace
 PRODUCT_SOONG_NAMESPACES += \
@@ -978,6 +979,12 @@ PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
     PresencePolling \
     RcsService
+
+# IMS/Telephony
+PRODUCT_PACKAGES += \
+    ims-ext-common \
+    ims_ext_common.xml \
+    telephony-ext
 
 #################################################################################
 # This is the End of device-common.mk file.
