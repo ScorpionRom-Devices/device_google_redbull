@@ -583,6 +583,12 @@
     },
     {
       "PowerHint": "LAUNCH",
+      "Node": "TASchedtuneHighCap",
+      "Duration": 5000,
+      "Value": "1"
+    },
+    {
+      "PowerHint": "LAUNCH",
       "Node": "CPUBigClusterMaxFreq",
       "Duration": 5000,
       "Value": "9999999"
@@ -1552,6 +1558,36 @@
       "Node": "Dex2oatCPUSet",
       "Duration": 0,
       "Value": "4,5"
+    },
+    {
+      "PowerHint": "THERMAL_skin-therm-monitor_EMERGENCY",
+      "Node": "SkinThermMonitorTzOffset",
+      "Duration": 0,
+      "Value": "0"
+    },
+    {
+      "PowerHint": "THERMAL_skin-therm-monitor_EMERGENCY",
+      "Node": "SkinThermTzOffset",
+      "Duration": 0,
+      "Value": "0"
+    },
+    {
+      "PowerHint": "THERMAL_skin-therm-monitor_EMERGENCY",
+      "Node": "SkinThermCpuTzOffset",
+      "Duration": 0,
+      "Value": "0"
+    },
+    {
+      "PowerHint": "THERMAL_skin-therm-monitor_EMERGENCY",
+      "Node": "CellularEmergencyTzOffset",
+      "Duration": 0,
+      "Value": "0"
+    },
+    {
+      "PowerHint": "THERMAL_skin-therm-monitor_EMERGENCY",
+      "Node": "PanelAudioThermTzOffset",
+      "Duration": 0,
+      "Value": "0"
     }
 
   ]
