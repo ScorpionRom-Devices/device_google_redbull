@@ -1,0 +1,7 @@
+[
+  {
+    "repository": "LineageOS/android_kernel_google_redbull",
+    "target_path": "kernel/google/redbull",
+    "branch":     "lineage-19.0" 
+  }
+]
