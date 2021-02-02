@@ -848,8 +848,10 @@ HIDL_WRAPPER += qti_telephony_hidl_wrapper.xml
 PRODUCT_PACKAGES += $(HIDL_WRAPPER)
 
 # Increment the SVN for any official public releases
+ifeq ($(PRODUCT_DEVICE_SVN_OVERRIDE),)
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.vendor.build.svn=16
+	ro.vendor.build.svn=20
+endif
 
 # ZRAM writeback
 PRODUCT_PROPERTY_OVERRIDES += \
