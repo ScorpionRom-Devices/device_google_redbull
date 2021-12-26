@@ -36,6 +36,9 @@
 
     <!-- Enable system navigation keys. -->
     <bool name="config_supportSystemNavigationKeys">true</bool>
+    
+    <!-- Flag indicating whether we should enable the adaptive sleep.-->
+    <bool name="config_adaptive_sleep_available">true</bool>
 
     <!-- Stability requirements in milliseconds for accepting a new brightness level.  This is used
      for debouncing the light sensor.  Different constants are used to debounce the light sensor
